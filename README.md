@@ -1,12 +1,22 @@
-# React + Vite
+# 📝 Editor Markdown com Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Editor de Markdown em tempo real com preview renderizado automaticamente. Estilizado com SCSS, responsivo e com foco em acessibilidade.
 
-Currently, two official plugins are available:
+## 🔧 Tecnologias
+- React
+- Vite
+- SCSS
+- marked (parser Markdown)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
+- Edição de Markdown com salvamento automático no localStorage
+- Preview ao vivo com renderização
+- Botões de atalho para inserção de sintaxe Markdown
+- Estilo responsivo e adaptado para diversos tamanhos de tela
+- Scrollbar customizado
+- Temas visuais com variáveis SCSS
+- Acessibilidade
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Links
+- Projeto online: https://visualizador-de-markdown-delta.vercel.app
+- Código-fonte: https://github.com/R4f4ell/visualizadorDeMarkdown
