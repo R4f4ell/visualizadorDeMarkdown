@@ -31,6 +31,7 @@ const App = () => {
   };
 
   return (
+    <main>
     <div className="app-container">
       <Toolbar insertText={insertText} />
       <textarea
@@ -40,6 +41,7 @@ const App = () => {
       />
       <div dangerouslySetInnerHTML={renderText()} />
     </div>
+    </main>
   );
 };
 
